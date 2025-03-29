@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
         <header className='navbar'>
             <div className="navbar-left">
                 <nav className='menu'>
-                    <button className='menu-item-active'>Conversaciones</button>
+                    <button className='menu-item active'>Conversaciones</button>
                     <button className='menu-item'>Pacientes</button>
                     <button className='menu-item'>Médicos</button>
                 </nav>

@@ -1,12 +1,12 @@
 import './App.css'
 import Navbar from './components/Navbar';
-// import Conversations from './pages/Conversations';
+import Conversations from './pages/Conversations';
 
 function App() {
     return (
         <div className='app-container'>
             <Navbar />
-            {/* <Conversations /> */}
+            <Conversations />
         </div>
     );
 };

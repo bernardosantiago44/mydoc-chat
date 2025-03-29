@@ -1,0 +1,84 @@
+.chat-sidebar {
+    width: 320px;
+    background-color: #f4f6f8;
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+  
+.chat-sidebar-content {
+    padding: 12px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.chat-sidebar h4 {
+    margin: 12px 0 6px;
+    font-size: 14px;
+    color: #333;
+}
+  
+.chat-request,
+.active-chat {
+    background: white;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #222;
+}
+
+.chat-request {
+    font-size: 12px;
+}
+
+.chat-request button {
+    outline: none;
+    transition-duration: 0.4s;
+}
+  
+.chat-request button.primary {
+    margin-left: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+}
+
+.chat-request button.primary:hover {
+    background-color: #429eff;
+}
+  
+.chat-request button.secondary {
+    margin-left: 6px;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    border: solid 1px #007bff;
+    background-color: white;
+    color: #007bff;
+}
+
+.chat-request button.secondary:hover {
+    background-color: #e8e8e8;
+}
+
+.chat-request .sender-information {
+    text-align: left;
+    width: 100%;
+}
+
+.chat-request .sender-name {
+    text-align: left;
+}
+
+.chat-request .sender-phone {
+    color: #757575;
+}
