@@ -1,0 +1,12 @@
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
