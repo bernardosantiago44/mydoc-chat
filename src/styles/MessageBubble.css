@@ -1,22 +1,32 @@
 .message-bubble {
     max-width: 70%;
     margin-bottom: 10px;
-    padding: 10px 14px;
+    padding: 0px 14px;
     border-radius: 8px;
     font-size: 14px;
     line-height: 1.4;
     word-wrap: break-word;
-  }
+}
+
+.message-wrapper {
+    display: flex;
+}
+
+.message-wrapper.left {
+    justify-content: flex-start;
+}
   
-  .message-bubble.patient {
+  .message-wrapper.right {
+    justify-content: flex-end;
+}
+  
+.message-bubble.patient {
     background-color: #e9ecef;
     color: #222;
-    align-self: flex-start;
-  }
+}
   
-  .message-bubble.doctor {
+.message-bubble.doctor {
     background-color: #007bff;
     color: white;
-    align-self: flex-end;
-  }
+}
   
