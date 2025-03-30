@@ -9,11 +9,12 @@
     flex: 1;
     padding: 12px 16px;
     border: none;
-    outline: none;
+    outline: 0px;
     background: none;
     cursor: pointer;
     font-size: 14px;
     color: #555;
+    border-radius: 0px;
 }
 
 .tab button {
@@ -24,6 +25,6 @@
 .tab.active {
     font-weight: bold;
     color: #007bff;
-    border: 1px solid #007bff;
+    border-bottom: 2px solid #007bff;
     outline: none;
 }
